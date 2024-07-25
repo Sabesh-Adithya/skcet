@@ -1,6 +1,9 @@
 h1{
-    padding-top:0px;
+    padding-top:10px;
     padding-bottom:0px;
+    display:inline-flex;
+    padding-left: 250px;
+    
 }
 .clas1{
    inline-size: display;
@@ -11,9 +14,9 @@ P{
         border: 15px solid rgb(194, 160, 255);
         padding: 50px;
         margin: 20px;
-      
+     
 }
 img{
     width: 100px;
-    padding-right: 0px;
+    display:inline-flex;
 }
