@@ -1,0 +1,19 @@
+h1{
+    padding-top:0px;
+    padding-bottom:0px;
+}
+.clas1{
+   inline-size: display;
+}
+P{
+    background-color: lightgrey;
+        width: 300px;
+        border: 15px solid rgb(194, 160, 255);
+        padding: 50px;
+        margin: 20px;
+      
+}
+img{
+    width: 100px;
+    padding-right: 0px;
+}
