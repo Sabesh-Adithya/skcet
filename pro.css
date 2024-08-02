@@ -1,4 +1,6 @@
-
+*{
+    flex: wrap;
+}
 header{
   display: flex;
   align-items: center;
@@ -11,6 +13,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: black;
 
 }
 img{
@@ -188,4 +191,13 @@ img{
     width: 50%;
     display: flex;
     justify-content: space-around;
+}
+@media (max-width:799px){
+    #navbar {
+        display: flex;
+        align-items: center;
+        align-items: flex-start;
+        justify-content: flex-start;
+        color: black;
+    }
 }
