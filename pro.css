@@ -236,7 +236,7 @@ img{
         padding-left:20px;
     }
     .three{
-        padding-left: 40px;
+        padding-left: 35px;
      }
      .three h5{
         color: red;
@@ -247,11 +247,14 @@ img{
     }
     .three h1{
         color: black;
-        font-size: 35px;
+        font-size: 25px;
         text-transform: capitalize;
         line-height: 1.1;
         font-weight: 600;
         margin: 6px 0 10px;
+    }
+    .three p{
+        font-size: 10px;
     }
     .con{
         background-color: rgb(182, 182, 182);
