@@ -219,6 +219,9 @@ img{
     #navbar li{
         margin-bottom: 25px;
     }
+    #bar{
+        padding-left: 210px;
+    }
     img{
         height: 55%;
         width: 55%;
