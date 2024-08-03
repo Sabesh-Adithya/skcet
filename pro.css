@@ -204,11 +204,11 @@ img{
         position: fixed;
         top: 0;
         right: 0px;
-        height: 30vh;
+        height: 25vh;
         width: 100px;
         background-color: white;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
-        padding: 80px 0 0 10px;
+        padding: 10px 0 0 10px;
         color: black;
         transition: 0.3s;
         z-index: 100;
@@ -225,6 +225,9 @@ img{
         position:static;
         padding-top: 0px;
        
+    }
+    .one{
+        display: none;
     }
     .mobile{
         display: flex;
