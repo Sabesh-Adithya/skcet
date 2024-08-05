@@ -20,7 +20,7 @@
                 <li><a href='#'>About</a></li> 
                 <li><a href='#Contact'>Contact</a></li>
                 <li><a href='login.html'>LOGIN</a></li>
-                <li><a class="one" href='#' ></a><i class='bx bx-shopping-bag' ></i></a></li>
+                <li><a class="one" href='#' ><i class='bx bx-shopping-bag' ></i></a></li>
             </ul>
         </div>
         <div id="mobile">
@@ -45,7 +45,9 @@
                          </div>
                          <h4>$ 90</h4>
                      </div>
-                     <a href="#"><i class='bx bx-cart-alt car'></i></a>
+                     <div class="item">
+                        <button class="car" onclick="addToCart('DENVER', 90)">Add</i></i></button>
+                    </div>
                  </div>
                 </div>
                 <div class="cont2">
@@ -63,7 +65,9 @@
                          </div>
                          <h4>$ 78</h4>
                      </div>
-                     <a href="#"><i class='bx bx-cart-alt car'></i></a>
+                     <div class="item">
+                        <button class="car" onclick="addToCart('ELEGANT', 78)">Add</i></i></button>
+                    </div>
                  </div>
                 </div>
                 <div class="cont3">
@@ -81,7 +85,9 @@
                          </div>
                          <h4>$ 86</h4>
                      </div>
-                     <a href="#"><i class='bx bx-cart-alt car'></i></a>
+                     <div class="item">
+                        <button class="car" onclick="addToCart('N5 CHANNEL', 86)">Add</i></i></button>
+                    </div>
                  </div>
                  </div>
                 </section>
@@ -102,7 +108,9 @@
                          </div>
                          <h4>$ 67</h4>
                      </div>
-                     <a href="#"><i class='bx bx-cart-alt car'></i></a>
+                     <div class="item">
+                        <button class="car" onclick="addToCart('HARRY CREATURE', 67)">Add</i></i></button>
+                    </div>
                  </div>
                 </div>
                 <div class="cont2">
@@ -120,7 +128,9 @@
                          </div>
                          <h4>$ 92</h4>
                      </div>
-                     <a href="#"><i class='bx bx-cart-alt car'></i></a>
+                     <div class="item">
+                        <button class="car" onclick="addToCart('MESSO', 92)">Add</i></i></button>
+                    </div>
                  </div>
                 </div>
                 <div class="cont3">
@@ -138,7 +148,9 @@
                          </div>
                          <h4>$ 89</h4>
                      </div>
-                     <a href="#"><i class='bx bx-cart-alt car'></i></a>
+                     <div class="item">
+                        <button class="car" onclick="addToCart('HEIDI WALLLEY', 89)">Add</i></i></button>
+                    </div>
                  </div>
                  </div>
                 <div class="cont3">
@@ -156,7 +168,9 @@
                          </div>
                          <h4>$ 77</h4>
                      </div>
-                     <a href="#"><i class='bx bx-cart-alt car'></i></a>
+                     <div class="item">
+                        <button class="car" onclick="addToCart('KILLEN MARRY', 77)">Add</i></i></button>
+                    </div>
                  </div>
                  </div>
                 <div class="cont3">
@@ -174,7 +188,9 @@
                          </div>
                          <h4>$ 90</h4>
                      </div>
-                     <a href="#"><i class='bx bx-cart-alt car'></i></a>
+                     <div class="item">
+                        <button class="car" onclick="addToCart('SYSTO MILEN', 90)">Add</i></i></button>
+                    </div>
                  </div>
                  </div>
                 <div class="cont3">
@@ -192,10 +208,22 @@
                          </div>
                          <h4>$ 79</h4>
                      </div>
-                     <a href="#"><i class='bx bx-cart-alt car'></i></a>
+                     <div class="item">
+                        <button class="car" onclick="addToCart('RAMPO MUTFI', 79)">Add</i></i></button>
+                    </div>
                  </div>
                  </div>
                 </section>
+                <center>
+                    <div class="cart">
+                        <h2>Cart</h2>
+                        <ul id="cart-items"></ul>
+                        <strong>Total: $<span id="total">0</span></strong>
+                    </div>
+                
+                    <script src="cart.js"></script>
+                    </center>
+        
     <section class="con" id="Contact">
         <div class="con-info">
             <div class="fir-info">

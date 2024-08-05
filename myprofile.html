@@ -3,102 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Porfolio</title>
-    <link rel="shortcut icon" href="pf.jpg">
-    <link rel="stylesheet" href="profile.css">
-   
+    <title>Shopping Cart</title>
+    <style>
+        .item {
+            margin-bottom: 10px;
+        }
+        .cart {
+            margin-top: 20px;
+        }
+    </style>
 </head>
-
-<body style="background-color: rgb(157, 165, 255);">
-    <div id="one">
-        <a class="div1" href="myprofile.html">Home</a>
-        <a class="div1"  href="9677434506">About</a>
-        <a class="div1">Contact Us</a>
-         
-        <select name="cars" id="cars">
-            <option value="volvo">Certification</option>
-            <option value="saab">RPA DEVELEPOR</option>
-            <option value="opel">ARM DEVELOPER</option>
-            <option value="audi">PCB REVERSE ENGINEER</option>
-          </select>
-          <div class="fiff">
-        <a class="div2" href="RESUME-MYSELF.pdf">View Resumae</a>
-        <a class="div3" href="RESUME-MYSELF.pdf">Download Resumae</a>
-          </div>
+<body>
+    <div class="item">
+        <span>Item 1 - $10</span>
+        <button onclick="addToCart('Item 1', 10)">Add to Cart</button>
     </div>
-    <h1 class="pop" style="font-family: 'Segoe UI', Verdana, Geneva, Tahoma, sans-serif, Geneva, Verdana, sans-serif">Hi I'm Sabesh Adithya Velmurugan</h1>
-    <center><h4 style="font-family: cursive;">(An embedded developer)</h4></center>
-    <div class="three">
-    <div class="two"><p>Certainly! As an embedded developer, I thrive at the intersection of software and hardware, crafting solutions that power everyday devices 
-        and complex systems. My expertise lies in designing efficient, real-time software that drives embedded systems, ensuring they perform reliably 
-        and effectively in various environments. With a deep understanding of low-level programming languages and hardware interfaces, I excel in optimizing
-         performance and overcoming challenges unique to embedded environments. Whether it's enhancing user interfaces, integrating sensors, or optimizing power
-          consumption, I am dedicated to delivering robust solutions that meet both functional and technical requirements.</p></div>
-          <div class="four"><img src="em.jpg" height="200px" width="400px" onclick="blur"></div>
-          </div>
-          
-          <div class="six">
-          <table >
-            <tr>
-            <th>Content</th>
-            <th>Higher Education</th>
-            <th>Undergraduate</th>
-            </tr>
-            <tr>
-                <td>Education</td>
-                <td>Sree Gokulam Matric Hr sec School</td>
-                <td>Sri Krishna College of Engineering and Technology</td>
-            </tr>
-            <tr>
-                <th>Percentage and SGPA</th>
-                <th> 96% </th>
-                <th> 8.7</th>
-            </tr>
-            <tr>
-                <th>Academic Year </th>
-                <th> 2021-2022</th>
-                <th> 2022-2026</th>
-            </tr>
-            <tr>
-                <th>Awards and Recognisation</th>
-                <th>MC Group Associator</th>
-                <th>Rank Holder</th>
-            </tr>
-          </table>
-       
-        
-          <h2>Technical Skills</h2>
-          <div class="owl">
-              <ul>
-                  <li>C++</li><br>
-                  <li>Java</li><br>
-                  <li>JavaScript</li><br>
-                  <li>C#</li><br>
-                </ul>
-            </div>
-            <h2> Languages</h2>
-        <div class="bol">
-            <ul>
-                <li>Tamil        4/5</li><br>
-                <li>English      4/5</li><br>
-                <li>German       3/5</li><br>
-            </ul>
-        </div>
-        </div>
-       <div class ="awl">
-        <h1>My Projects</h1>
-        <h2 class="qwe">1) Smart Street Light Automation</h2>
-        <div class="b">
-        <p class="a">Smart street light automation involves using advanced technologies to improve the efficiency, functionality, and sustainability of street lighting systems. These systems typically use sensors, communication networks, and data analytics to adjust lighting based on real-time conditions. For example, lights can automatically dim or brighten based on the time of day, weather, or the presence of pedestrians and vehicles. This not only enhances safety and visibility but also reduces energy consumption and maintenance costs. Additionally, smart street lights can be integrated with other smart city infrastructure to support a range of applications, from monitoring air quality to providing Wi-Fi hotspots.</p>
-        <img class="u" src="pro.jpg" alt="Project1">
-        </div>
-       </div>
-       <div class ="awl1">
-        <h2 class="qwe1">2) Smart Energy DC Meter</h2>
-        <div class="b1">
-        <p class="a1">SMart Energy DC Meter is an innovative project designed to monitor and manage direct current (DC) energy usage efficiently. The meter offers real-time tracking of various DC parameters such as voltage, current, and power consumption. Key features include high precision measurements, user-friendly interface for data display, and connectivity options for remote monitoring and control. The project aims to enhance energy efficiency, support sustainable practices, and provide valuable insights for both residential and industrial applications.</p>
-        <img class="u1" src="meter.webp" alt="Project1">
-        </div>
-       </div>
+    <div class="item">
+        <span>Item 2 - $20</span>
+        <button onclick="addToCart('Item 2', 20)">Add to Cart</button>
+    </div>
+    
+    <div class="cart">
+        <h2>Cart</h2>
+        <ul id="cart-items"></ul>
+        <strong>Total: $<span id="total">0</span></strong>
+    </div>
+
+    <script src="cart.js"></script>
 </body>
 </html>
