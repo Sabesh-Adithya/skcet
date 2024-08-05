@@ -25,7 +25,7 @@ function updateCartUI() {
     // Add each cart item to the cart UI
     cart.forEach(item => {
         const li = document.createElement('li');
-        li.textContent = `${item.name} - $${item.price}`;
+        li.textContent = `${item.name} = $${item.price}`;
         cartItemsElement.appendChild(li);
         total += item.price;
     });
